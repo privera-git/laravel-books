@@ -5,6 +5,8 @@
 @section('content')
     <h1>Books</h1>
 
+    <p>Git template branch</p>
+
     @if (isset($books) && count($books) > 0) 
         <table class="table table-hover table-bordered">
             <thead class="thead-dark">
